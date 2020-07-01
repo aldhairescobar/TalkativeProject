@@ -7,13 +7,16 @@
 
 @font-face {
      font-family: bauhaus;
-     src: url(Bauhaus_.ttf) form ('embedded-opentype');
+     src: url(font/BauhausRegular.ttf) form ('embedded-opentype');
+     src: url(font/bauhausregular-webfont.woff2) format('woff2'),
+     url(font/bauhausregular-webfont.woff) format('woff'),
+     url(font/BauhausRegular.ttf) format('truetype');
    }
 
 body{
      margin: 0;
      background-color: rgb(221, 94, 94);
-     font-family: bauhaus;
+     font-family: bauhaus, sans-serif;
      color: white;
 
      display: flex;
